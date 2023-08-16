@@ -1,4 +1,4 @@
-# Apache 2.4 (http only)
+# basics
 Bastille template to add some basic packages to the jail and supress annoying messages.
 
 * Installs nano, wget, curl and htop
