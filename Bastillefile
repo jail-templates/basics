@@ -1,0 +1,5 @@
+PKG nano wget curl htop
+SYSRC motd_enable=NO
+CMD printf '' > /var/run/motd
+CMD printf '' > /etc/motd.template
+CMD touch /root/.hushlogin
