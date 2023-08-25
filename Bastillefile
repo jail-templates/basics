@@ -1,4 +1,18 @@
+
+########################################################################################
+# Copyright (c) 2023, Nozel, Sebas Veeke. All rights reserved.
+#
+# Licenced under a 3-Clause BSD License (https://opensource.org/license/bsd-3-clause).
+#
+# Contact:
+# > e-mail      mail@nozel.org
+# > GitHub      jail-templates
+########################################################################################
+
+# install required packages
 PKG nano wget curl htop
+
+# disable MOTD
 SYSRC motd_enable=NO
 CMD printf '' > /var/run/motd
 CMD printf '' > /etc/motd.template
